@@ -117,7 +117,7 @@ def R(q,d,a,alpha,R06):
     R03 = T03[0:3, 0:3]
     return dot(R03.T, R06)
 ```
-
+### Задание начальных условий
 ```python
 # задание начальных условий
 q = [float(0) for i in range(6)]
